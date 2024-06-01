@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+.red {
+    background-color: red;
+    height: 100px;
+}
+.blue {
+    background-color: blue;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.green {
+    background-color: green;
+    height: 100px;
+}
+
+/* 
+### HTML Structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="green"></div>
+</body>
+</html>
+```
+
+### Explanation of the HTML Elements:
+
+- `<!DOCTYPE html>`: Declares the document type and version of HTML used.
+- `<html lang="en">`: The root element of the HTML document, specifying the document's language as English.
+- `<head>`: Contains metadata and links to external resources.
+  - `<link rel="stylesheet" href="style.css">`: Links an external CSS file named "style.css" to the HTML document.
+  - `<meta charset="UTF-8">`: Defines the character encoding of the document as UTF-8.
+  - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Sets the viewport properties for responsive design.
+  - `<title>Document</title>`: Sets the title of the HTML document.
+- `<body>`: Contains the content of the HTML document.
+  - `<div class="red"></div>`: Represents a container with the class "red".
+  - `<div class="blue"></div>`: Represents a container with the class "blue".
+  - `<div class="green"></div>`: Represents a container with the class "green".
+
+### CSS Structure (style.css):
+
+```css
+body {
+    margin: 0;
+}
+
+.red {
+    background-color: red;
+    height: 100px;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.green {
+    background-color: green;
+    height: 100px;
+}
+```
+
+### Explanation of the CSS Styles:
+
+- `body`:
+  - `margin: 0;`: Removes the default margin from the body element to ensure elements are flush with the edges of the viewport.
+
+- `.red`:
+  - `background-color: red;`: Sets the background color to red.
+  - `height: 100px;`: Sets the height to 100 pixels.
+
+- `.blue`:
+  - `background-color: blue;`: Sets the background color to blue.
+  - `height: 100px;`: Sets the height to 100 pixels.
+  - `margin-bottom: 20px;`: Adds a 20-pixel margin below the element.
+  - `margin-top: 20px;`: Adds a 20-pixel margin above the element.
+
+- `.green`:
+  - `background-color: green;`: Sets the background color to green.
+  - `height: 100px;`: Sets the height to 100 pixels.
+
+### Summary of the Web Page:
+
+This HTML and CSS code creates a simple web page with three colored div elements stacked vertically. Each div has a different background color (red, blue, and green), and the blue div has a margin that separates it from the other two divs. The body element has no margin, ensuring that the div elements extend to the full width of the viewport.
+
+*/

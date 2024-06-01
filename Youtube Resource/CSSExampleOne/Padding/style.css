@@ -1,0 +1,32 @@
+.card {
+    color: #8DAA91;
+    background: #28112B;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 10px solid #5E5D5C;
+    border-radius: 30px;
+
+    /* padding-right: 100px;        //question solution
+        padding-top: 100px;
+    */
+    padding: 100px;
+}
+
+/* 
+
+
+
+Explanation:
+- `color: #8DAA91;`: Sets the text color to a shade of green (#8DAA91).
+- `background: #28112B;`: Sets the background color of the card to a dark purple (#28112B).
+- `width: 500px;`: Specifies the width of the card as 500 pixels.
+- `margin-top: 200px;`: Adds a top margin of 200 pixels to position the card vertically.
+- `margin-left: auto; margin-right: auto;`: Centers the card horizontally by setting left and right margins to auto.
+- `border: 10px solid #5E5D5C;`: Defines a border around the card with a width of 10 pixels and a color of dark gray (#5E5D5C).
+- `border-radius: 30px;`: Rounds the corners of the card by applying a border radius of 30 pixels.
+- `padding: 100px;`: Adds internal padding of 100 pixels to the content inside the card, providing space between the content and the border.
+
+*/

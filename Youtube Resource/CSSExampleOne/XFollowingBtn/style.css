@@ -1,0 +1,50 @@
+.foll {
+    display: block;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 85px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    color: #0f1419;
+    border-color: #cfd9de;
+    background: white;
+    border-radius: 18px;
+}
+
+/* 
+```css
+.foll {
+    display: block;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 85px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    color: #0f1419;
+    border-color: #cfd9de;
+    background: white;
+    border-radius: 18px;
+}
+```
+
+This CSS code styles the "Following" button. Here's a breakdown of each property:
+
+- `display: block;`: Sets the button to be displayed as a block-level element, causing it to take up the full width available and start on a new line.
+- `font-weight: bold;`: Makes the text inside the button bold.
+- `margin-top: 100px;`: Adds a top margin of 100 pixels, pushing the button down from the top of the page.
+- `width: 85px;`: Sets the width of the button to 85 pixels.
+- `padding-top: 5px; padding-bottom: 5px;`: Adds padding to the top and bottom of the button's content area.
+- `margin-left: auto; margin-right: auto;`: Centers the button horizontally by setting the left and right margins to auto.
+- `border: 2px solid;`: Adds a 2-pixel solid border around the button.
+- `color: #0f1419;`: Sets the text color to a dark shade (#0f1419).
+- `border-color: #cfd9de;`: Sets the color of the button's border to a light shade (#cfd9de).
+- `background: white;`: Sets the background color of the button to white.
+- `border-radius: 18px;`: Adds rounded corners to the button with a radius of 18 pixels.
+
+*/
