@@ -25,3 +25,76 @@ body {
     padding: 25px;
     
 }
+
+/* 
+
+#### CSS Code
+
+```css
+body {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.card {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #83E8BA;
+    border-radius: 8px;
+    border-bottom: 10px solid #504136;
+}
+
+.border {
+    border: 1px solid #E3F09B;
+    padding: 25px;
+}
+```
+
+### Explanation of CSS Components
+
+1. **Body Styles**:
+    - `body`: Sets global styles for the body element.
+        - `margin: 20px`: Adds a margin of 20 pixels around the body.
+        - `font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif`: Sets the font family for the text.
+        - `text-align: center`: Centers the text horizontally.
+
+2. **Profile Picture Styles**:
+    - `.profile-pic`: Styles the profile image.
+        - `width: 180px`: Sets the width of the image to 180 pixels.
+        - `border-radius: 10px`: Rounds the corners of the image with a radius of 10 pixels.
+
+3. **Card Styles**:
+    - `.card`: Styles the profile card.
+        - `padding: 30px`: Adds padding inside the card.
+        - `display: flex`: Applies flexbox layout to the card.
+        - `justify-content: space-around`: Distributes space evenly around the items inside the card.
+        - `width: 400px`: Sets the width of the card to 400 pixels.
+        - `margin: 0 auto`: Centers the card horizontally.
+        - `background-color: #83E8BA`: Sets the background color of the card to a light greenish color.
+        - `border-radius: 8px`: Rounds the corners of the card with a radius of 8 pixels.
+        - `border-bottom: 10px solid #504136`: Adds a solid border of 10 pixels at the bottom with a dark gray color.
+
+4. **Border Styles**:
+    - `.border`: Styles elements with a border.
+        - `border: 1px solid #E3F09B`: Adds a solid border of 1 pixel with a light yellow color.
+        - `padding: 25px`: Adds padding inside the bordered element.
+
+### Usage of the Code
+
+- The HTML and CSS code together create a styled profile card that includes a profile picture, name, job title, and location.
+- The CSS rules define the appearance of the card, including its background color, text color, border, and padding.
+- The profile picture is styled to have rounded corners and a specific width.
+- The card layout is achieved using flexbox to ensure proper spacing and alignment of the content.
+
+This documentation provides a detailed overview of the structure and styling of the HTML and CSS code used for the profile card.
+
+*/

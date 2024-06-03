@@ -1,0 +1,64 @@
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 60;
+    font-style: normal;
+}
+
+.ad {
+    background: #040F16;
+    color: #FBFBFF;
+    border: 5px solid #0B4F6C;
+    text-align: center;
+}
+
+.cta {
+    color: #01BAEF;
+    border: 2px solid #01BAEF;
+    padding: 5px 10px;
+}
+
+/* 
+
+#### CSS Code
+
+```css
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 60;
+    font-style: normal;
+}
+
+.ad {
+    background: #040F16;
+    color: #FBFBFF;
+    border: 5px solid #0B4F6C;
+    text-align: center;
+}
+
+.cta {
+    color: #01BAEF;
+    border: 2px solid #01BAEF;
+    padding: 5px 10px;
+}
+```
+
+### Explanation of CSS Components
+
+1. **Body Styles**:
+    - `body`: Sets the font family to "Dela Gothic One" with a fallback to sans-serif, font weight, and font style.
+
+2. **Advertisement Block Styles**:
+    - `.ad`: Styles the advertisement block with a dark blue background (`#040F16`), white text (`#FBFBFF`), a solid border with a lighter blue color (`#0B4F6C`), and centers the text.
+
+3. **Call to Action Styles**:
+    - `.cta`: Styles the call to action text with a light blue color (`#01BAEF`), adds a border of the same color, and provides padding for spacing.
+
+### Usage of the Code
+
+- The HTML and CSS code creates a styled advertisement block with a headline and a call to action.
+- The CSS rules define the appearance of the body text, the advertisement container, and the call to action element.
+- Google Fonts are used to enhance typography, and the font is preloaded for faster performance.
+- The advertisement block is centered and styled with contrasting colors to draw attention. 
+
+This documentation provides a detailed overview of the structure and styling of the HTML and CSS code used for the advertisement block.
+*/
