@@ -1,0 +1,166 @@
+.container {
+    border: 8px solid #016a26;
+    height: 260px;
+
+    /* display: flex;               these are the practiced
+    justify-content: end; */
+
+    /* display: flex;               
+    justify-content: start;
+    align-items: center; */
+
+    /* display: flex;
+    justify-content: end;
+    align-items: center; */
+
+    /* display: flex;
+    justify-content: start;
+    align-items: end; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: start; */
+
+    /* align-items: stretch; */
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; */
+
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: end;
+    align-items: start; */
+
+    /* justify-content:end;
+    align-items: end; */
+
+    /* justify-content: center;
+    align-items: start; */
+
+    /* justify-content: space-between;
+    align-items: end; */
+
+    justify-content: start;
+    align-items: center;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}
+
+/* 
+
+### Explanation of the CSS
+
+Let's break down the CSS styles applied to `.container` and `.item`:
+
+#### `.container`
+
+```css
+.container {
+    border: 8px solid #016a26;
+    height: 260px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+```
+
+1. **`border: 8px solid #016a26;`**
+   - Adds an 8-pixel wide solid border with the color `#016a26` (a shade of green).
+
+2. **`height: 260px;`**
+   - Sets the height of the container to 260 pixels.
+
+3. **`display: flex;`**
+   - Defines the container as a flex container.
+
+4. **`flex-direction: column;`**
+   - Arranges the flex items in a column (one below the other).
+
+5. **`justify-content: start;`**
+   - Aligns the flex items at the start (top) of the container.
+
+6. **`align-items: center;`**
+   - Aligns the flex items horizontally at the center of the container.
+
+#### `.item`
+
+```css
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}
+```
+
+1. **`width: 50px;`**
+   - Sets the width of each item to 50 pixels.
+
+2. **`height: 50px;`**
+   - Sets the height of each item to 50 pixels.
+
+3. **`margin: 2px;`**
+   - Adds a 2-pixel margin around each item.
+
+4. **`padding: 10px;`**
+   - Adds 10 pixels of padding inside each item.
+
+5. **`font-size: 50px;`**
+   - Sets the font size of the content (emoji) inside each item to 50 pixels.
+
+6. **`border: 2px solid black;`**
+   - Adds a 2-pixel solid black border around each item.
+
+7. **`background: linear-gradient(#14463d, #016a26);`**
+   - Sets a linear gradient background for each item, transitioning from `#14463d` (a darker shade of green) to `#016a26` (the same green as the container border).
+
+### Practiced CSS (Commented Out)
+
+The commented-out CSS represents different flexbox layout practices that you experimented with:
+
+1. **Horizontal alignment:**
+
+   - `justify-content: end;` - Aligns items to the end (right) of the container.
+   - `justify-content: start;` - Aligns items to the start (left) of the container.
+   - `justify-content: center;` - Centers items horizontally in the container.
+   - `justify-content: space-evenly;` - Distributes items evenly with equal space between them.
+
+2. **Vertical alignment:**
+
+   - `align-items: center;` - Centers items vertically in the container.
+   - `align-items: end;` - Aligns items to the end (bottom) of the container.
+   - `align-items: start;` - Aligns items to the start (top) of the container.
+   - `align-items: stretch;` - Stretches items to fill the container's cross axis (the axis perpendicular to the flex direction).
+
+3. **Column direction:**
+
+   - `flex-direction: column;` - Arranges items in a column (vertically).
+
+4. **Combination of alignment:**
+
+   - `justify-content` and `align-items` can be combined in different ways to control the alignment of flex items within the container both horizontally and vertically.
+
+### Summary
+
+In this setup, the container is styled with a border and fixed height, and it's a flex container with column direction, aligning its items at the start (top) and centering them horizontally. Each item within the container is styled with specific dimensions, margin, padding, font size, border, and a gradient background. The commented-out lines show various flexbox layout experiments, providing different ways to align and distribute the items within the container.
+*/

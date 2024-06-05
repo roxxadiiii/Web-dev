@@ -1,0 +1,116 @@
+div {
+    text-align: center;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div:hover {
+    background-color: #ba181b;
+    font-size: 40px;
+}
+
+#cater:hover {
+    background-image: url(cater.png);
+}
+#menu:hover {
+    background-image: url(menu.png);
+}
+
+#menu:hover {
+    background-image: url(table.png);
+}
+
+/* 
+Based on your updated CSS, the hover effects for the div elements will change the background color, font size, and background image. Here’s the corrected and complete HTML and CSS to implement your desired functionality:
+
+### HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu">Menu</div>
+    <div id="table">Book a table</div>
+    <div id="cater">Catering</div>
+</body>
+</html>
+```
+
+### CSS
+```css
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    transition: background-color 0.3s ease, font-size 0.3s ease, background-image 0.3s ease;
+    cursor: pointer;
+}
+
+div:hover {
+    background-color: #ba181b;
+    font-size: 40px;
+}
+
+#cater:hover {
+    background-image: url('cater.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu:hover {
+    background-image: url('menu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#table:hover {
+    background-image: url('table.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+```
+
+### Explanation of the CSS Adjustments
+1. **Body Style**:
+   - Ensured the body has a neutral background color and central text alignment.
+   - Included a universal font family for consistency.
+
+2. **Div Styling**:
+   - Set a red background (`#e5383b`) and centered text with white color (`whitesmoke`).
+   - Added margin and padding for spacing and a consistent font style.
+   - Implemented smooth transition effects for `background-color`, `font-size`, and `background-image`.
+
+3. **Hover Effects**:
+   - Changed the background color to a darker shade of red (`#ba181b`) and increased the font size on hover.
+   - Added specific background images for `#menu`, `#table`, and `#cater` on hover.
+   - Ensured the background images cover the entire div and do not repeat.
+
+4. **Fixed Hover Effect for #table**:
+   - Corrected the CSS selector for the `#table` hover effect to ensure it displays the correct image.
+
+By ensuring the correct background images are used for each div on hover and applying smooth transitions, the user experience will be enhanced.
+
+ */
